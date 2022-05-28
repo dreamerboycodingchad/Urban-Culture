@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+
+}
+
+.bio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    background-image: url(/img/city1.jpeg);
+    
+    /*
+    background: #111;
+    background-image: url(/img/blue.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    */
+    width: 100%;
+    /*height: 100vh;*/
+    padding: 20px;
+
+}
+
+.container{
+    display: block;
+    background: white;
+    width: 50%;
+    /*height: 100vh;*/
+    font-family: sans-serif;;
+    border-radius: 6px;
+}
+img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.link-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.info{
+    width: 72%;
+}
+
+.website-title{
+    font-size: 1.5rem;
+    text-align: left;
+    color: black;
+    font-weight: 400;
+}
+
+.websites{
+    list-style: none;  
+    padding-left: 0;
+    text-align: left;
+    
+}
+
+.website-items{
+    padding: 3px;
+}
+
+#website-links{
+    font-size: 1rem;
+    color: grey;
+    /*text-decoration: none;*/
+}
+
+.websites-2{
+    list-style: none;  
+    padding-left: 0;
+    text-align: left;
+    
+}
+
+.plug{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 99%;
+    
+    margin-top: 70px;
+    /*
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 70px;
+    */
+   
+}
+.discord{
+    font: sans-serif;
+    text-align: right;
+    font-size: .6rem;
+    color: grey;
+}
+
+#github{
+    width: 30px;
+    height: 30px;
+}
+
+#discord{
+    width: 30px;
+    height: 30px;
+}
+
+#plug-links:hover{
+    cursor: pointer;
+}
+
+#website-links:visited{
+    text-decoration: none;
+}
+
+#plug-links:visited{
+    text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    .container{
+        display: block;
+        background: white;
+        width: 100%;
+        /*height: 100vh;*/
+        font-family: sans-serif;;
+        border-radius: 6px;
+    }
+}
