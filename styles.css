@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #111;
+    /*background: #111;*/
     background-image: url(./img/city1.jpeg);
     
     /*
